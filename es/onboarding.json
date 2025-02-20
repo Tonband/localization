@@ -1,6 +1,24 @@
 {
-  "action.skipOnboarding": "Omite el tutorial de bienvenida, sé lo que hago",
+  "action.skipOnboarding": "Omitir el tutorial de bienvenida. Sé lo que hago.",
   "action.next": "Siguiente",
   "action.back": "Anterior",
   "action.finish": "Terminar"
+
+  "dismissable_rag_modal": {
+    "description": "Ahora puedes chatear con tus propios documentos mediante generación aumentada por recuperación (RAG). Así es como funciona:",
+    "instructions": {
+      "attach_files": {
+        "title": "Adjunta archivos",
+        "description": "Carga hasta 5 archivos a la vez, con un tamaño máximo combinado de 30 MB. Los formatos admitidos son PDF, DOCX, TXT y CSV."
+      },
+      "be_specific": {
+        "title": "Sé específico",
+        "description": "Al hacer preguntas, menciona tantos detalles como sea posible. Esto ayuda al sistema a recuperar la información más relevante de sus documentos."
+      },
+      "get_responses": {
+        "title": "Obtén respuestas y experimenta",
+        "description": "El modelo analizará tu consulta y los extractos recuperados de tus documentos e intentará generar una respuesta. Experimenta con distintas consultas para encontrar la que funcione mejor."
+      }
+    }
+  }
 }
